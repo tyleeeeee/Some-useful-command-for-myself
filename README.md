@@ -25,4 +25,15 @@ Then create a pull request in github
 git checkout branch
 git log --oneline
 ```
+## Download files from gdrive
+```
+pip install gdown
+```
+### Example 
 
+Gdrive link: https://drive.google.com/file/d/18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN/view?usp=sharing 
+
+Gdrive ID: 18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN
+```
+gdown https://drive.google.com/uc?id=18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN
+```
