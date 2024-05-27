@@ -20,20 +20,20 @@ git push origin branchname
 ```
 Then create a pull request in github
 
-### Other command
+### Other commands
 ```
 git checkout branch
 git log --oneline
 ```
 ## Download files from gdrive
-```
-pip install gdown
-```
-### Example 
+```pip install gdown```
 
-Gdrive link: https://drive.google.com/file/d/18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN/view?usp=sharing 
+Gdrive link: https://drive.google.com/file/d/FILE_ID/view?usp=sharing 
 
-Gdrive ID: 18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN
-```
-gdown https://drive.google.com/uc?id=18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN
-```
+Replace **FILE_ID** with the real ID 
+
+```gdown https://drive.google.com/uc?id=FILE_ID```
+
+or
+
+```gdown https://drive.google.com/uc?id=FILE_ID -o output_file_name```
